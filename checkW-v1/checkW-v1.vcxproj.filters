@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mychart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xianshi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="check.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="check.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="mychart.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="xianshi.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="check.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="b.qss" />
+    <None Include="black.qss" />
+    <None Include="test.html" />
+    <None Include="cpp.hint" />
+    <None Include="html\day.html" />
+    <None Include="html\echarts-all.js" />
+    <None Include="html\month.html" />
+    <None Include="html\quarter.html" />
+    <None Include="html\test.html" />
+    <None Include="html\echarts.all.js" />
+    <None Include="html\t2.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="check.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mychart.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="xianshi.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\boat_783px_1224913_easyicon.net.png" />
+  </ItemGroup>
+</Project>
